@@ -1,0 +1,309 @@
+html { 
+    box-sizing: border-box; 
+  }
+  body{
+      margin: 0px;
+  }
+  
+  *, *:before, *:after { 
+    box-sizing: inherit;
+    font-family: 'Fjalla One', sans-serif;
+
+  }
+  .first-page{ 
+      margin-bottom: 200px;
+      background-color: grey;
+  }
+
+nav{
+    background-color: rgb(37, 34, 34);
+    height:60px;
+    position: fixed;
+    width: 100%
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 50px;
+  }
+li a{
+
+    font-size:25px;
+    text-decoration: none;
+    color: lightgrey;
+   
+
+}
+a:hover{
+    animation-name: hover-transition;
+    animation-duration: 4s;
+}
+.homepage-info h1{
+    margin-top: 57vw; 
+    
+    font-size: 10vw;
+    
+   
+    
+}
+.homepage-info h2{
+    margin-top: 20vw;
+   
+    font-size: 10vw;
+    margin-bottom: 30px;
+   
+    
+}
+.homepage-info h3{
+    
+    font-size: 4.3vw;
+    margin-left: 150px;
+    
+}
+   
+.homepage-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    justify-content: center;
+    
+    
+}
+.scroll-reminder{
+    display: flex;
+    
+    height: 100px;
+    padding-bottom: 0px;
+    
+}
+.scroll-reminder h4{
+    margin-top: 200px;
+    font-size: 20px;
+    color:#B39B47;
+    
+
+ 
+    
+}
+.body-section{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    
+}
+.body-section h1{
+    margin-top: 0px;
+    width: 100%;
+    color: white;
+   
+    background-color:  rgb(37, 34, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.about-me h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-me p{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+.about-me{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.portfolio-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-app-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-app-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+iframe{
+    border: 2px solid black;
+    height: 700px;
+    width: 370px
+}
+.quiz-app-body a{
+    color:#B39B47;
+    font-size:25px;
+    text-decoration: none;
+   
+}
+.quiz-app-body p{
+    margin-top: 5px;
+        margin-bottom: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid black;
+        margin-left: 50px;
+        margin-right: 50px;
+}
+.quiz-app-body a:hover{
+    color: #9ECFFF;
+}
+#contact {
+    width: 100%
+}
+#contact h1{
+    width: 100%;
+    height: 30px;
+}
+.contact-body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#contact-info-list{
+    list-style-type: none;
+    border: 1px solid black;
+}
+#contact-info-list li{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    
+}
+
+@media screen and (min-width: 1024px) {
+    html { 
+        box-sizing: border-box; 
+        
+      }
+
+      body{
+          margin: 0px;
+      }
+      
+      *, *:before, *:after { 
+        box-sizing: inherit;
+        
+    
+      }
+    .first-page{
+       background-color: grey;
+      margin-bottom: 0px;
+    }
+    nav{
+        background-color: rgb(37, 34, 34);
+        height:60px;
+        position: fixed;
+        width: 100%
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        height: 50px;
+      }
+    li a{
+        
+        font-size: 25px;
+        text-decoration: none;
+    
+    }
+
+    .homepage-info{
+        height: 600px;
+    }
+    .homepage-info h1{
+        margin-top: 10vh; 
+        font-size: 110px;
+        
+    }
+    .homepage-info h2{
+        margin-top: 0vh;
+        font-size: 140px;
+        margin-bottom: 0px;
+        
+    }
+    .homepage-info h3{
+       
+        margin-left: 860px;
+        font-size: 40px;
+
+        margin-bottom: 0px;
+    }
+    
+    .homepage-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 750px;
+        justify-content: center;
+        
+    }
+    .scroll-reminder h4{
+        margin-top: 90px;
+        font-size: 20px;
+        
+        
+    }
+    .scroll-reminder{
+        display: flex;
+        height: 100px;
+        padding-bottom: 0px;
+        
+    }
+    .about-me h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-me p{
+        margin-top: 60px;
+        margin-bottom: 90px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid black;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .about-me{
+        
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    iframe{
+        border: 2px solid black;
+        height: 650px;
+        width: 700px
+    }
+}
